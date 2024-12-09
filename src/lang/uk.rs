@@ -246,7 +246,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Paste", "Вставити"),
         ("Paste here?", "Вставити сюди?"),
         ("Are you sure to close the connection?", "Ви впевнені, що хочете завершити підключення?"),
-        ("Download new version", "Отримайте нову версію"),
+        ("Download new version", "Завантажити нову версію"),
         ("Touch mode", "Сенсорний режим"),
         ("Mouse mode", "Режим миші"),
         ("One-Finger Tap", "Дотик одним пальцем"),
@@ -655,5 +655,6 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Clipboard is synchronized", "Буфер обміну синхронізовано"),
         ("Update client clipboard", "Оновити буфер обміну клієнта"),
         ("Untagged", "Без міток"),
+        ("new-version-of-{}-tip", ""),
     ].iter().cloned().collect();
 }
